@@ -8,6 +8,5 @@ if array.length == 0
    other_deli.each_with_index do {|name, index|
    current_line << "The line is currently: #{index + 1}. #{name}"
 end
-return current_line
 end
 end
