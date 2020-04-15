@@ -7,4 +7,5 @@ if katz_deli.length == 0
    counter = 1
    puts "The line is currently: {#counter}. {#name}"
 end
+return katz_deli
 end
