@@ -7,7 +7,6 @@ if array.length == 0
    current_line =[]
    other_deli.each_with_index {|name, index|
    current_line << "The line is currently: #{index + 1}. #{name}"
-     
    }
 return current_line
 end
