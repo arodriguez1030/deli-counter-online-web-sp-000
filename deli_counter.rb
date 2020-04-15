@@ -7,6 +7,7 @@ if array.length == 0
    array.each do |name|
    counter = 1
    puts "The line is currently: {#counter}. {#name}"
+   counter +=1
 end
 return katz_deli
 end
