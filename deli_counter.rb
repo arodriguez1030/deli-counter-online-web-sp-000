@@ -8,6 +8,6 @@ if array.length == 0
    other_deli.each_with_index {|name, index|
    current_line << #{index + 1}. #{name}"
    }
- puts 
+ puts "The line is currently: {"
 end
 end
