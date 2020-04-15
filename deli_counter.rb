@@ -10,5 +10,4 @@ if array.length == 0
    counter +=1
 end
 end
-return katz_deli
 end
