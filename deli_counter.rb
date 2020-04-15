@@ -6,8 +6,8 @@ if array.length == 0
  else
    current_line =[]
    other_deli.each_with_index {|name, index|
-   current_line << "The line is currently: #{index + 1}. #{name}"
+   current_line << #{index + 1}. #{name}"
    }
-return current_line
+ puts 
 end
 end
