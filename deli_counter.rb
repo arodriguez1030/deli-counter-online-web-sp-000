@@ -9,5 +9,6 @@ if array.length == 0
    puts "The line is currently: {#counter}. {#name}"
    counter +=1
 end
+end
 return katz_deli
 end
